@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.entrada-tarea {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entrada-tarea input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.entrada-tarea button {
+    width: 25%;
+    padding: 10px;
+    border: none;
+    background: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.entrada-tarea button:hover {
+    background: #218838;
+}
+
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.resumen-tareas {
+    width: 40%;
+}
+
+.lista-tareas {
+    width: 55%;
+    list-style: none;
+    padding: 0;
+}
+
+#lista-tareas li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.acciones-tarea {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.acciones-tarea button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.acciones-tarea .boton-eliminar {
+    color: #dc3545;
+    font-size: 16px;
+}
+
+.acciones-tarea .checkbox-completar {
+    cursor: pointer;
+}
